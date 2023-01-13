@@ -1,0 +1,15 @@
+{
+    "name": "kidstell/bitlady-trait",
+    "description": "Enables the extensive use of bitwise operators to store flags in PHP classes",
+    "autoload": {
+        "psr-4": {
+            "Kidstell\\Bitlady\\": "src/",
+            "Kidstell\\Bitlady\\Tests\\": "tests/tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "illuminate/database": "^9.44",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

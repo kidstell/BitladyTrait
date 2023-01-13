@@ -1,0 +1,8 @@
+*/.env
+vendor
+tests/coverage
+.phpunit.*
+composer.lock
+tests/database.sqlite
+idempotenceCheck.sh
+docs
